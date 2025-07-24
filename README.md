@@ -59,8 +59,14 @@ pip install auto-py-to-exe coverage dash dash-design-kit flask-caching openpyxl 
 
 ### **Méthode 1** : Exécuter le script Python
 
+PowerShell
 ```bash
-python app.py
+$env:PYTHONPATH="src"; python app.py
+```
+
+Linux/macOS
+```bash
+PYTHONPATH=src python app.py
 ```
 
 > L'application sera disponible à l'adresse : `http://localhost:8050` (serveur Dash en développement)
