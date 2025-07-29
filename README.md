@@ -66,7 +66,8 @@ $env:PYTHONPATH="src"; python app.py
 
 Linux/macOS
 ```bash
-PYTHONPATH=src python app.py
+set PYTHONPATH=src
+python app.py
 ```
 
 > L'application sera disponible à l'adresse : `http://localhost:8050` (serveur Dash en développement)
