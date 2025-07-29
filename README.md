@@ -50,7 +50,7 @@ source .venv/bin/activate
 ### 4. Installer les dépendances
 
 ```bash
-pip install auto-py-to-exe coverage dash dash-design-kit flask-caching openpyxl pandas plotly pytest pytest-cov statsmodels xlsxwriter
+pip install coverage dash dash-design-kit flask-caching openpyxl pandas plotly pytest pytest-cov statsmodels xlsxwriter
 ```
 
 ---
