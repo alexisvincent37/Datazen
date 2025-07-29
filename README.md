@@ -61,13 +61,13 @@ pip install coverage dash dash-design-kit flask-caching openpyxl pandas plotly p
 
 PowerShell
 ```bash
-$env:PYTHONPATH="src"; python app.py
+set PYTHONPATH=src
+python app.py
 ```
 
 Linux/macOS
 ```bash
-set PYTHONPATH=src
-python app.py
+PYTHONPATH=src python app.py
 ```
 
 > L'application sera disponible à l'adresse : `http://localhost:8050` (serveur Dash en développement)
