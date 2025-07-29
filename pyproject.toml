@@ -1,0 +1,28 @@
+[project]
+name = "datazen"
+version = "1.0.0"
+description = "Application de traitement et de visualisation de données tabulaires développée avec Dash."
+readme = "README.md"
+authors = [
+    { name = "alexisvincent37", email = "alexis.vincent@etu.univ-tours.fr" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "auto-py-to-exe>=2.46.0",
+    "coverage>=7.9.2",
+    "dash>=3.0.4",
+    "dash-design-kit>=0.0.1",
+    "flask-caching>=2.3.1",
+    "hatchling>=1.27.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.0",
+    "plotly>=6.1.2",
+    "pytest>=8.4.0",
+    "pytest-cov>=6.2.1",
+    "statsmodels>=0.14.5",
+    "xlsxwriter>=3.2.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

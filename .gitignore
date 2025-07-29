@@ -1,0 +1,11 @@
+#py cache
+__pycache__/
+
+#venv
+.venv/
+
+#flask cache
+flask_cache/
+
+
+mémoire/
